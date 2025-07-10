@@ -1,7 +1,7 @@
 import React from "react";
 import podeanFooterLogo from "../../assets/images/podean_footer.png"; // Update with actual logo path
 import {} from "@radix-ui/react-icons";
-import { Linkedin, Mail } from "lucide-react";
+import { Facebook, Linkedin, Mail } from "lucide-react";
 
 const PartnerAndFooterSection: React.FC = () => {
   return (
@@ -144,13 +144,13 @@ const PartnerAndFooterSection: React.FC = () => {
               </button>
             </form>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="hover:opacity-80">
-                🔗
+              <a href="http://podean.com" className="hover:opacity-80">
+                <Facebook />
               </a>
-              <a href="#" className="hover:opacity-80">
+              <a href="http://podean.com" className="hover:opacity-80">
                 <Mail />
               </a>
-              <a href="#" className="hover:opacity-80">
+              <a href="http://podean.com" className="hover:opacity-80">
                 <Linkedin />
               </a>
             </div>
