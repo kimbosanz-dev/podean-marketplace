@@ -6,8 +6,9 @@ import tiktokSnap1 from "../../assets/images/tiktok_snap_1.png";
 import tiktokSnap2 from "../../assets/images/tiktok_snap_2.png";
 import tiktokSnap3 from "../../assets/images/tiktok_snap_3.png";
 import tiktokSnap4 from "../../assets/images/tiktok_snap_4.png";
+import type React from "react";
 
-const TrustPlatformSection = () => {
+const TrustPlatformSection: React.FC = () => {
   return (
     <section className="bg-hero-fade relative text-white py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-black">
       <div className="relative z-10 max-w-7xl mx-auto text-center">
