@@ -1,7 +1,9 @@
 import "./App.css";
+import ChooseUs from "./component/ChooseUs/ChooseUs";
 import ExpertiseSection from "./component/Expertise/Expertise";
 import Header from "./component/Header/Header";
 import LogoTicker from "./component/LogoTicker/LogoTicker";
+import PartnerAndFooterSection from "./component/PartnerAndFooter/PartnerAndFooter";
 import Solutions from "./component/Solutions/Solutions";
 import StatsSection from "./component/StatsSection/StatsSection";
 import TrustPlatformSection from "./component/TrustSection/TrustSection";
@@ -20,6 +22,8 @@ function App() {
           <WeDoItAllSection />
           <Solutions />
           <TrustPlatformSection />
+          <ChooseUs />
+          <PartnerAndFooterSection />
         </main>
       </div>
     </>
