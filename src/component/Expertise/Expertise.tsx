@@ -1,6 +1,11 @@
 const ExpertiseSection: React.FC = () => {
   return (
-    <section className="bg-black px-4 sm:px-6 lg:px-8 text-white text-center mb-0 sm:mb-[150px] lg:mb-[250px] xl:mb-[350px] mt-auto sm:mt-0 lg:mt-0 xl:mt-[65px]">
+    <section
+      className="
+        bg-black px-4 sm:px-6 lg:px-8 text-white text-center         
+        mt-auto sm:mt-[200px] lg:mt-[300px] xl:mt-[335px]
+        mb-auto sm:mb-[200px] lg:mb-[300px] xl:mb-[335px]"
+    >
       <div className="max-w-8xl mx-auto">
         <h1
           className="

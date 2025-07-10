@@ -6,6 +6,7 @@ const WeDoItAllSection: React.FC = () => {
         px-4 sm:px-6 lg:px-8
         text-white text-center
         mt-auto sm:mt-[200px] lg:mt-[300px] xl:mt-[335px]
+        mb-auto sm:mb-[200px] lg:mb-[300px] xl:mb-[335px]
         py-20
     "
     >
