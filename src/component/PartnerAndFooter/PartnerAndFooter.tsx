@@ -1,15 +1,13 @@
 import React from "react";
-import podeanFooterLogo from "../../assets/images/podean_footer.png"; // Update with actual logo path
+import podeanFooterLogo from "../../assets/images/podean_footer.png";
 import {} from "@radix-ui/react-icons";
 import { Facebook, Linkedin, Mail } from "lucide-react";
 
 const PartnerAndFooterSection: React.FC = () => {
   return (
     <section className="w-full">
-      {/* Full-width white background section */}
       <div className="rounded-xl bg-white text-black w-full py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12">
-          {/* Left Column */}
           <div className="flex-1 space-y-6">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
               Partner with an agency who <br className="hidden sm:block" /> gets
@@ -54,7 +52,6 @@ const PartnerAndFooterSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Column - Form */}
           <div className="flex-1 space-y-4 mt-auto mb-auto">
             <form className="space-y-4">
               <input
@@ -101,10 +98,8 @@ const PartnerAndFooterSection: React.FC = () => {
         </div>
       </div>
 
-      {/* Connected Orange Footer */}
       <footer className="bg-[#FC4A27] text-white w-full px-4 sm:px-6 lg:px-8 py-12">
         <div className="mt-auto sm:mt-[200px] lg:mt-[300px] xl:mt-[150px] max-w-7xl mx-auto flex flex-col lg:flex-row gap-12">
-          {/* Left side */}
           <div className="flex-1 space-y-4">
             <img
               src={podeanFooterLogo}
@@ -125,7 +120,6 @@ const PartnerAndFooterSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Right side - Newsletter */}
           <div className="flex-1 space-y-4">
             <p className="font-semibold">
               Enter your Email to subscribe to our Newsletter
@@ -143,7 +137,7 @@ const PartnerAndFooterSection: React.FC = () => {
                 SUBSCRIBE
               </button>
             </form>
-            <div className="flex space-x-4 mt-4">
+            <div className="flex space-x-4 mt-4 justify-center md:justify-start lg:justify-start xl:justify-start">
               <a href="http://podean.com" className="hover:opacity-80">
                 <Facebook />
               </a>
