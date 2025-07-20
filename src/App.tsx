@@ -1,13 +1,13 @@
 import "./App.css";
-import ChooseUs from "./component/ChooseUs/ChooseUs";
-import ExpertiseSection from "./component/Expertise/Expertise";
-import Header from "./component/Header/Header";
-import LogoTicker from "./component/LogoTicker/LogoTicker";
-import PartnerAndFooterSection from "./component/PartnerAndFooter/PartnerAndFooter";
-import Solutions from "./component/Solutions/Solutions";
-import StatsSection from "./component/StatsSection/StatsSection";
-import TrustPlatformSection from "./component/TrustSection/TrustSection";
-import WeDoItAllSection from "./component/WeDoItAllSection/WeDoItAllSection";
+import ChooseUs from "./components/ChooseUs/ChooseUs";
+import ExpertiseSection from "./components/Expertise/Expertise";
+import Header from "./components/Header/Header";
+import LogoTicker from "./components/LogoTicker/LogoTicker";
+import PartnerAndFooterSection from "./components/PartnerAndFooter/PartnerAndFooter";
+import Solutions from "./components/Solutions/Solutions";
+import StatsSection from "./components/StatsSection/StatsSection";
+import TrustPlatformSection from "./components/TrustSection/TrustSection";
+import WeDoItAllSection from "./components/WeDoItAllSection/WeDoItAllSection";
 
 function App() {
   return (
